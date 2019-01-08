@@ -7,6 +7,7 @@
 
   <body>
     <?php include('inc/header.inc'); ?>
+    <?php include('inc/homepage/homepage-hero.inc'); ?>
 
     <div class="container">
 
