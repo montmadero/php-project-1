@@ -1,20 +1,21 @@
 <div id="form">
-  <div class="title ">
+  <div class="wrapper-form">
+    <div class="title">
     <h1>CONTACT US</h1>
   </div>
   <div class="line">
-    <h2>_____</h2>
+    -------
   </div>
-  <div class="icons">
-    <div class="ihouse">
+  <div class="icons text-center">
+    <div class="ihouse col-12 col-md-4">
       <i class="fas fa-house-damage"></i>
       <p>9863 - 9867 Mill Road, Cambridge MG09 99HT</p>
     </div>
-    <div class="ipaper">
-      <i class="fas fa-house-damage"></i>
+    <div class="ipaper col-12 col-md-4">
+      <i class="far fa-paper-plane"></i>
       <p>+1 800 603 6035</p>
     </div>
-    <div class="imail">
+    <div class="imail col-12 col-md-4">
       <i class="far fa-envelope"></i>
       <p>mail@demolink.org</p>
     </div>
@@ -30,4 +31,5 @@
         <input type="submit" name="send" value="Send">
       </div>
     </form>
+  </div>
 </div>
