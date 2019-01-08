@@ -121,10 +121,13 @@
         <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
         <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
       </div>
+      
+      <i class="fab fa-accessible-icon"></i>
 
 
     </div> <!-- /container -->
 
     <?php include('inc/footer.inc'); ?>
+    <?php include('inc/html.scripts.inc'); ?>
   </body>
 </html>
