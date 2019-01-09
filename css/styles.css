@@ -12,7 +12,7 @@
 #header .logo-wrapper {
   width: 100%;
   height: auto;
-  background-color: #df5b51;
+  background-color: #ff5b50;
 }
 #header .logo {
   width: 200px;
@@ -25,6 +25,18 @@
 @media (min-width: 768px) {
   #header {
     display: none;
+  }
+}
+#header-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  #header-desktop {
+    display: inline-block;
+  }
+  #header-desktop .logo {
+    width: 20%;
+    height: auto;
   }
 }
 #form .title h1 {
