@@ -7,7 +7,7 @@
 <link rel="icon" href="/favicon.png">
 
 <!-- Bootstrap core CSS -->
-<link href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+<link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <script src="/js/font-awesome.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/mmenu.css" />
