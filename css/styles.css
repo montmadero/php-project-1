@@ -296,13 +296,14 @@
 }
 #form .icons .ihouse p {
   text-align: center;
+  padding: 0 60px;
 }
 #form .icons span {
   font-size: 70px;
   color: red;
 }
 .formu .wrapper-formu .inputs {
-  padding-top: 100px;
+  padding: 100px 0 0 0;
 }
 .formu .inputs .circle {
   padding: 25px 80px 35px 53px;
@@ -345,6 +346,12 @@
   }
   #form .icons {
     padding-bottom: 150px;
+  }
+  #form .icons .ihouse p {
+    padding: 0;
+  }
+  .formu .wrapper-formu .inputs {
+    padding: 100px 0 0 0;
   }
   .formu .wrapper-message .hidden-2 {
     display: block;
