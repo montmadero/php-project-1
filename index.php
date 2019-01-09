@@ -57,6 +57,12 @@
         </div>
       </div>
     </div>
+    <div class="follow-us container-fluid">
+      <h1> FOLLOW US</h1>
+        <a href="#" class="insta">INSTAGRAM</a>
+      <h5 class="insta">instagram</h5>
+
+    </div>
 
     <?php include('inc/footer.inc'); ?>
     <?php include('inc/html.scripts.inc'); ?>
