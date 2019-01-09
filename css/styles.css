@@ -465,3 +465,12 @@
   background-color: #fff;
   border-radius: 35px;
 }
+#our-programs {
+  background-image: url(../images/parallax.jpg);
+}
+#our-programs .line {
+  width: 110px;
+  height: 4px;
+  background-color: #000;
+  margin-right: auto;
+}
