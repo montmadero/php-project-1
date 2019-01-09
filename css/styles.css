@@ -186,13 +186,14 @@
 }
 #form .icons .ihouse p {
   text-align: center;
+  padding: 0 60px;
 }
 #form .icons span {
   font-size: 70px;
   color: red;
 }
 .formu .wrapper-formu .inputs {
-  padding-top: 100px;
+  padding: 100px 0 0 0;
 }
 .formu .inputs .circle {
   padding: 25px 80px 35px 53px;
@@ -235,6 +236,12 @@
   }
   #form .icons {
     padding-bottom: 150px;
+  }
+  #form .icons .ihouse p {
+    padding: 0;
+  }
+  .formu .wrapper-formu .inputs {
+    padding: 100px 0 0 0;
   }
   .formu .wrapper-message .hidden-2 {
     display: block;
@@ -486,30 +493,10 @@
 .exercises h1 {
   letter-spacing: 10px;
   text-align: center;
-<<<<<<< HEAD
   margin: 65px 0;
 }
 .exercises h4 {
   margin: 30px 0;
-=======
-  padding: 0 60px;
-}
-#form .icons span {
-  font-size: 70px;
-  color: red;
-}
-.formu .wrapper-formu .inputs {
-  padding: 100px 0 0 0;
-}
-.formu .inputs .circle {
-  padding: 25px 80px 35px 53px;
-  border-radius: 4rem;
-  border: 1px solid black;
-  margin-bottom: 30px;
-}
-.formu .wrapper-message .hidden-2 {
-  display: none;
->>>>>>> eee23a25dd5d70f784f013a5b188fd929c850236
 }
 .exercises p {
   color: gray;
@@ -526,45 +513,10 @@
   border: none;
   margin: 30px;
 }
-<<<<<<< HEAD
 .exercises-cta input:hover {
   background: white;
   color: #FA5858;
   border: none;
-=======
-.formu .wrapper-formu {
-  padding-bottom: 100px;
-}
-.formu .wrapper-message .hidden-3 {
-  display: none;
-  margin-left: 50px;
-}
-/* Tablet */
-@media (min-width: 768px) {
-  .formu .inputs .circle {
-    padding: 25px 10px 35px 53px;
-    border-radius: 4rem;
-    border: 1px solid black;
-    margin-bottom: 30px;
-    margin-right: 15px;
-  }
-  .formu .wrapper-message .hidden-1 {
-    display: none;
-  }
-  #form .icons {
-    padding-bottom: 150px;
-  }
-  #form .icons .ihouse p {
-    padding: 0;
-  }
-  .formu .wrapper-formu .inputs {
-    padding: 100px 0 0 0;
-  }
-  .formu .wrapper-message .hidden-2 {
-    display: block;
-    margin-left: 50px;
-  }
->>>>>>> eee23a25dd5d70f784f013a5b188fd929c850236
 }
 @media (min-width: 992px) {
   .exercises .text {
@@ -611,7 +563,6 @@
     padding: 15% 8%;
   }
 }
-<<<<<<< HEAD
 #latest-news {
   background-image: url('../../../img/background1.jpg');
   height: auto;
@@ -815,7 +766,7 @@
 }
 #news-center .columna1 {
   float: right;
-=======
+}
 #our-benefits {
   background-image: url(../images/parallax.jpg);
   height: auto;
@@ -881,5 +832,4 @@
   color: #fff;
   background-color: #ff0000;
   border-radius: 35px;
->>>>>>> eee23a25dd5d70f784f013a5b188fd929c850236
 }
