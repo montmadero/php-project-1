@@ -307,15 +307,6 @@
 #womens .container-fluid {
   padding: 0px;
 }
-#womens .container-fluid .row {
-  margin-left: 0px;
-  margin-right: 200px;
-  padding: 0px;
-}
-#womens .container-fluid .row .title-wrapper {
-  margin: 0px;
-  padding: 0px;
-}
 #womens .container-fluid .row .title-wrapper .title h1 {
   color: #FFFFFF;
   text-transform: uppercase;
@@ -333,31 +324,16 @@
   margin-top: 21px;
   margin-bottom: 70px;
 }
-#womens .container-fluid .row .subtitle-wrapper {
-  margin-left: 0px;
-  margin-right: 200px;
-  padding: 0px;
-}
 #womens .container-fluid .row .subtitle-wrapper .subtitle h4 {
   color: #FFFFFF;
   font-size: 19px;
   margin-bottom: 30px;
-}
-#womens .container-fluid .row .paragraph-wrapper {
-  margin-left: 0px;
-  margin-right: 100px;
-  padding: 0px;
 }
 #womens .container-fluid .row .paragraph-wrapper .paragraph p {
   color: #686767;
   line-height: 20px;
   font-size: 16px;
   margin-bottom: 80px;
-}
-#womens .container-fluid .row .cta-wrapper {
-  margin-left: 0px;
-  margin-right: 200px;
-  padding: 0px;
 }
 #womens .container-fluid .row .cta-wrapper .cta input {
   color: #FFFFFF;
@@ -390,6 +366,34 @@
     padding-bottom: 190px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  #womens .container-fluid {
+    padding: 0px;
+  }
+  #womens .container-fluid .row {
+    margin-left: 0px;
+    margin-right: 200px;
+    padding: 0px;
+  }
+  #womens .container-fluid .title-wrapper {
+    margin-left: 0px;
+    margin-right: 200px;
+    padding: 0px;
+  }
+  #womens .container-fluid .subtitle-wrapper {
+    margin-left: 0px;
+    margin-right: 200px;
+    padding: 0px;
+  }
+  #womens .container-fluid .paragraph-wrapper {
+    margin-left: 0px;
+    margin-right: 100px;
+    padding: 0px;
+  }
+  #womens .container-fluid .cta-wrapper {
+    margin-left: 0px;
+    margin-right: 200px;
+    padding: 0px;
   }
 }
 #form .title h1 {
