@@ -1,4 +1,4 @@
-<h1>Subir noticia</h1>
+<h1>give us good news</h1>
 <form action="register.php" method="POST" enctype="multipart/form-data">
   Write a title:<br>
   <input type="text" name="title" id=""><br>
