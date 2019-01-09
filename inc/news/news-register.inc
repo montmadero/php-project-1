@@ -13,4 +13,4 @@
       or die("no se realizó el registro".mysqli_error($conexion));
       mysqli_close($conexion);
       echo "el registro se realizo exitosamente";
-    ?>
+?>
