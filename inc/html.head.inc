@@ -13,7 +13,7 @@
 <script src="js/jquery.mmenu.js"></script>
 <script src="js/jquery.mmenu.fixedelements.js"></script>
 
-<link rel="stylesheet" type="text/css" href="../css/mmenu.css" />
+<link rel="stylesheet" type="text/css" href="css/mmenu.css" />
 
 <!-- Global Styles from D4ALL CSS -->
 <script src="js/scripts.js"></script>
