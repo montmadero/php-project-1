@@ -8,15 +8,15 @@
     </div>
     <div class="icons text-center">
       <div class="ihouse col-sm-4">
-        <span><i class="fas fa-house-damage"></i></span>
+        <span class="icon house"></span>
         <p>9863 - 9867 Mill Road, Cambridge MG09 99HT</p>
       </div>
       <div class="ipaper col-sm-4">
-        <span><i class="far fa-paper-plane"></i></span>
+        <span class="icon papper"></span>
         <p>+1 800 603 6035</p>
       </div>
       <div class="imail col-sm-4">
-        <span><i class="far fa-envelope"></i></span>
+        <span class="icon mail"></span>
         <p>mail@demolink.org</p>
       </div>
     </div>

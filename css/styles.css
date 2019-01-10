@@ -166,6 +166,18 @@
     color: #ff5b50;
   }
 }
+#form .icon:before {
+  font-family: 'FontAwesome';
+}
+#form .icon.house:before {
+  content: '\f015';
+}
+#form .icon.papper:before {
+  content: '\f1d9';
+}
+#form .icon.mail:before {
+  content: '\f003';
+}
 #form .title h1 {
   font-size: 34px;
   text-align: center;
@@ -224,6 +236,13 @@
 }
 /* Tablet */
 @media (min-width: 768px) {
+  #form .icons .ihouse p {
+    text-align: center;
+    padding: 0 25px;
+  }
+  #form .icons {
+    padding-bottom: 100px;
+  }
   .formu .inputs .circle {
     padding: 25px 10px 35px 53px;
     border-radius: 4rem;
@@ -234,11 +253,11 @@
   .formu .wrapper-message .hidden-1 {
     display: none;
   }
-  #form .icons {
+  .formu .icons {
     padding-bottom: 150px;
   }
-  #form .icons .ihouse p {
-    padding: 0;
+  .formu .icons .ihouse p {
+    padding: 0 25px;
   }
   .formu .wrapper-formu .inputs {
     padding: 100px 0 0 0;
@@ -255,7 +274,7 @@
   #form .icons .ihouse p {
     max-width: 218px;
   }
-  .formu .wrapper-formu {
+  #form .wrapper-formu {
     margin: 25px 100px;
   }
 }
@@ -267,22 +286,22 @@
     padding: 0 65px;
     max-width: 348px;
   }
-  .formu .inputs .circle {
+  #form .inputs .circle {
     padding: 15px 95px 35px 53px;
   }
-  .formu .wrapper-message .hidden-2 {
+  #form .wrapper-message .hidden-2 {
     display: none;
     margin-left: 50px;
   }
-  .formu .wrapper-message .hidden-3 {
+  #form .wrapper-message .hidden-3 {
     display: block;
     margin-left: 50px;
     margin-left: 0;
   }
-  .formu .botton {
+  #form .botton {
     padding-left: 0;
   }
-  .formu .inputs {
+  #form .inputs {
     padding-bottom: 90px;
   }
 }
