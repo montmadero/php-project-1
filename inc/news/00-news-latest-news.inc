@@ -15,12 +15,8 @@
         mysqli_data_seek ($registros,0);
         $row = mysqli_fetch_array($registros);
         printf('<img src="../uploads' . $row[2] . '" class="img-responsive">');
-        printf('<a href="#">');
-        printf($row[1]);
-        printf('</a>');
-        printf('<p>');
-        printf($row[3]);
-        printf('</p>');
+        printf('<a href="#">' . $row[1] . '</a>');
+        printf('<p>' . $row[3] . '</p>');
         ?>
       </div>
     </div>
@@ -29,15 +25,10 @@
         <?php
           mysqli_data_seek ($registros,1);
           $row = mysqli_fetch_array($registros);
-          printf('<img src="../uploads');
-          printf($row[2]);
-          printf('" class="img-responsive">');
-          printf('<a href="#">');
-          printf($row[1]);
-          printf('</a>');
-          printf('<p>');
-          printf($row[3]);
-          printf('</p>');
+          printf('<img src="../uploads' . $row[2] . '" class="img-responsive">');
+          printf('<a href="#">' . $row[1] . '</a>');
+          printf('<p>' . $row[3] . '</p>');
+          ?>
         ?>
       </div>
     </div>
@@ -46,15 +37,10 @@
         <?php
           mysqli_data_seek ($registros,2);
           $row = mysqli_fetch_array($registros);
-          printf('<img src="../uploads');
-          printf($row[2]);
-          printf('" class="img-responsive">');
-          printf('<a href="#">');
-          printf($row[1]);
-          printf('</a>');
-          printf('<p>');
-          printf($row[3]);
-          printf('</p>');
+          printf('<img src="../uploads' . $row[2] . '" class="img-responsive">');
+          printf('<a href="#">' . $row[1] . '</a>');
+          printf('<p>' . $row[3] . '</p>');
+          ?>
         ?>
       </div>
     </div>
