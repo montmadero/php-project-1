@@ -596,7 +596,7 @@
   border-color: black;
 }
 #latest-news {
-  background-image: url('../../../img/background1.jpg');
+  background-image: url('../img/background1.jpg');
   height: auto;
   padding-bottom: 45px;
 }
@@ -634,7 +634,7 @@
   margin-right: auto;
 }
 #fresh-news {
-  background-image: url('../../../img/background2.jpg');
+  background-image: url('../img/background2.jpg');
   height: auto;
   padding-top: 0.1px;
 }
@@ -695,7 +695,7 @@
   margin-right: auto;
 }
 #learn-secrets {
-  background-image: url('../../../img/background3.jpg');
+  background-image: url('../img/background3.jpg');
   height: auto;
   padding-bottom: 200px;
 }
@@ -723,7 +723,7 @@
   margin-top: 86px;
 }
 #training-packages {
-  background-image: url('../../../img/background2.jpg');
+  background-image: url('../img/background2.jpg');
   height: auto;
 }
 #training-packages .title {
@@ -755,7 +755,7 @@
   padding-bottom: 95px;
 }
 #news-center {
-  background-image: url('../../../img/background5.jpg');
+  background-image: url('../img/background5.jpg');
   height: auto;
 }
 #news-center .subtitle {
