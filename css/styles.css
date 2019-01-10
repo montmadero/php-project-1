@@ -849,8 +849,17 @@
 #our-programs .line {
   width: 110px;
   height: 4px;
-  background-color: #ff00ff;
+  background-color: #e64809;
   margin-right: auto;
+}
+#our-programs .title h1 {
+  padding-top: 300px;
+}
+#our-programs .title h3 {
+  padding-top: 80px;
+}
+#our-programs .body p {
+  color: #675a69;
 }
 #our-programs .cta {
   padding: 45px;
