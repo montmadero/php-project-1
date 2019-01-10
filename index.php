@@ -1,3 +1,6 @@
+<?php
+  $title = 'HOME';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,6 +16,5 @@
     <?php include('inc/homepage/homepage-exercises.inc'); ?>
     <?php include('inc/homepage/homepage-follow-us.inc'); ?>
     <?php include('inc/footer.inc'); ?>
-    <?php include('inc/html.scripts.inc'); ?>
   </body>
 </html>
