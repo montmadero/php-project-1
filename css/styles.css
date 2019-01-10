@@ -1066,6 +1066,11 @@
   background-color: #fff;
   border-radius: 35px;
 }
+#our-benefits .cta a:hover {
+  background-color: #000;
+  transition: 0.3s ease-in-out;
+  color: #fff;
+}
 #our-programs {
   background-image: url(../images/parallax6.jpg);
   background-size: cover;
@@ -1073,25 +1078,29 @@
   width: 100%;
   color: white;
 }
-#our-programs .line {
+#our-programs .box {
+  padding: 20px;
+}
+#our-programs .box .line {
   width: 110px;
   height: 4px;
   background-color: #e64809;
   margin-right: auto;
 }
-#our-programs .title h1 {
-  padding-top: 300px;
+#our-programs .box .title h1 {
+  padding-top: 100px;
 }
-#our-programs .title h3 {
+#our-programs .box .title h3 {
   padding-top: 80px;
 }
-#our-programs .body p {
+#our-programs .box .body p {
   color: #675a69;
 }
-#our-programs .cta {
-  padding: 45px;
+#our-programs .box .cta {
+  padding-bottom: 80px;
+  padding-top: 50px;
 }
-#our-programs .cta a {
+#our-programs .box .cta a {
   text-decoration: none;
   padding-left: 35px;
   padding-right: 35px;
@@ -1102,6 +1111,36 @@
   font-size: 14px;
   font-style: italic;
   color: #fff;
-  background-color: #ff0000;
+  background-color: #ff554e;
   border-radius: 35px;
+}
+#our-programs .box .cta a:hover {
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+  color: #ff554e;
+}
+@media (max-width: 991.98px) {
+  #our-programs title h1 {
+    padding-top: 300px;
+  }
+}
+#what-clients-say {
+  background-image: url('../images/parallax.jpg');
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  color: white;
+}
+#what-clients-say .line {
+  width: 110px;
+  height: 4px;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 100px;
+}
+#what-clients-say .title {
+  padding-top: 80px;
+}
+#what-clients-say .testimonials {
+  margin-bottom: 100px;
 }
