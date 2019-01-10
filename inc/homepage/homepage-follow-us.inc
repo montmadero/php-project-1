@@ -1,14 +1,23 @@
-<div class="follow-us container-fluid">
-    <div class="social">
-      <h1> FOLLOW US</h1>
-      <h5 class="insta">INSTAGRAM</h5>
-      <h5 class="fb">FACEBOOK</h5>
-      <h5 class="tw">TWITTER</h5>
-      <h5 class="google">GOOGLE PLUS</h5>
-      <h5 class="pint">PINTEREST</h5>
+<div class="follow-us container-fluid" align="centered">
+  <h1> FOLLOW US</h1>
+  <div class="social row">
+    <div class="col-md-2">
+      <h6 class="insta">INSTAGRAM</h6>
     </div>
-  
-    <div class="follow-us-cta">
-      <input type="button" value="Read More">
+    <div class="col-md-2">
+      <h6 class="fb">FACEBOOK</h6>
     </div>
+    <div class="col-md-2">
+      <h6 class="tw">TWITTER</h6>
+    </div>
+    <div class="col-md-2">
+      <h6 class="google">GOOGLE PLUS</h6>
+    </div>
+    <div class="col-md-2">
+      <h6 class="pint">PINTEREST</h6>
+    </div>
+  </div>
+  <div class="follow-us-cta">
+    <input type="button" value="Read More">
+  </div>
 </div>
