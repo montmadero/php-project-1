@@ -1,3 +1,4 @@
+<?php $title = 'NEWS';?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
