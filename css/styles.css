@@ -135,6 +135,7 @@
     position: fixed;
     overflow: hidden;
     width: 100%;
+    z-index: 999;
   }
   #header-desktop .col-xs-1 {
     margin-top: 50px;
