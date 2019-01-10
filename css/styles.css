@@ -117,6 +117,9 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+#header-desktop {
+  display: none;
+}
 @media (min-width: 768px) {
   #header-mobile {
     display: none;
@@ -124,8 +127,6 @@
   #header {
     display: none;
   }
-}
-@media (min-width: 768px) {
   #header-desktop {
     display: block;
     margin-top: -50px;
@@ -279,6 +280,9 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+#header-desktop-black {
+  display: none;
+}
 @media (min-width: 768px) {
   #header-mobile {
     display: none;
@@ -286,8 +290,6 @@
   #header {
     display: none;
   }
-}
-@media (min-width: 768px) {
   #header-desktop-black {
     display: block;
     margin-top: -50px;
