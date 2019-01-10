@@ -310,7 +310,7 @@
   }
 }
 #hero {
-  background-image: url('../../../img/hero-bg.jpg');
+  background-image: url('../img/hero-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 232px;
@@ -325,7 +325,7 @@
   text-transform: uppercase;
   font-size: 10px;
   letter-spacing: 13px;
-  line-height: 2;
+  line-height: 2px;
 }
 #hero .paragraph-wrapper .paragraph p {
   display: none;
@@ -358,6 +358,7 @@
     height: 486px;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-top: -50px;
   }
   #hero .title-wrapper .title h1 {
     font-size: 18px;
@@ -536,7 +537,7 @@
   }
 }
 #womens {
-  background-image: url('../../../img/welcome-womens.jpg');
+  background-image: url('../img/welcome-womens.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 30px;
@@ -572,7 +573,7 @@
 #womens .container-fluid .row .paragraph-wrapper .paragraph p {
   color: #686767;
   line-height: 20px;
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 80px;
 }
 #womens .container-fluid .row .cta-wrapper .cta input {
