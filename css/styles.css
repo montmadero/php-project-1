@@ -1135,7 +1135,7 @@
   text-align: left;
 }
 .section-1 .line {
-  width: 110px;
+  width: 80px;
   height: 4px;
   background-color: #fd4900;
   margin-right: auto;
@@ -1143,8 +1143,6 @@
 .section-1 h1 {
   margin-top: 100px;
   font-size: 40px;
-  border-bottom-width: medium;
-  border-color: #ff0202;
 }
 .section-1 h5 {
   margin: 50px 0 20px 0;
@@ -1155,12 +1153,14 @@
   font-size: 15px;
 }
 .section-1 .cta-1 {
-  border-radius: 50px;
-  background-color: #fb0404;
+  width: 180px;
+  border-radius: 35px;
+  background-color: #ff473a;
   padding: 25px;
-  margin: 50px 130px 100px 45px;
+  margin: 40px 130px 100px 45px;
 }
 .section-1 a {
+  font-family: arial;
   text-decoration: none;
   color: #ffffff;
 }
@@ -1173,10 +1173,10 @@
 }
 @media (min-width: 768px) {
   .section-1 {
-    padding-bottom: 600px;
+    padding-bottom: 400px;
   }
   .section-1 h1 {
-    margin-top: 320px;
+    margin-top: 420px;
   }
 }
 .section-2 {
@@ -1187,13 +1187,37 @@
   padding-bottom: 70px;
 }
 .section-2 .line {
-  width: 80px;
+  width: 70px;
   height: 4px;
   background-color: #fff;
   margin: auto;
 }
 .section-2 .icon {
   font-size: 80px;
+}
+.section-2 .icon:before {
+  font-family: 'FontAwesome';
+}
+.section-2 .icon.clock:before {
+  content: '\f017';
+}
+.section-2 .icon:before {
+  font-family: 'FontAwesome';
+}
+.section-2 .icon.user:before {
+  content: "\f2c0";
+}
+.section-2 .icon:before {
+  font-family: 'FontAwesome';
+}
+.section-2 .icon.lock:before {
+  content: "\f023";
+}
+.section-2 .icon:before {
+  font-family: 'FontAwesome';
+}
+.section-2 .icon.heart:before {
+  content: "\f21e";
 }
 .section-2 h1 {
   margin-top: 100px;
@@ -1206,15 +1230,17 @@
   margin: 50px;
 }
 .section-2 .cta-2 {
+  width: 180px;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 35px;
   background-color: #ffffff;
   padding: 25px;
-  margin: auto;
 }
 .section-2 a {
   text-decoration: none;
   color: #000000;
+  margin: 0 auto;
+  display: table;
 }
 .section-2 .cta-2:hover {
   background-color: #060606;
@@ -1226,10 +1252,55 @@
 }
 @media (min-width: 768px) {
   .section-2 .item {
-    margin: 20px;
+    margin: 40px;
   }
   .section-2 .cta-2 {
     text-align: center;
+    margin: 50px auto;
+  }
+}
+.section-3 {
+  background-image: url('../img/parallax5.jpg');
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+.section-3 h1 {
+  margin-top: 100px;
+}
+.section-3 p {
+  margin-top: 50px;
+}
+.section-3 .cta-3 {
+  text-align: center;
+  width: 180px;
+  border-radius: 35px;
+  background-color: #ff473a;
+  padding: 25px;
+}
+.section-3 a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0px auto;
+  display: table;
+}
+.section-3 .cta-3:hover {
+  background-color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+.section-3 .cta-3:hover a {
+  color: #fb0404;
+}
+@media (min-width: 768px) {
+  .section-3 {
+    padding-bottom: 230px;
+  }
+  .section-3 h1 {
+    margin-top: 280px;
+  }
+  .section-3 .cta-3 {
+    margin: 50px auto;
   }
 }
 #our-benefits {
