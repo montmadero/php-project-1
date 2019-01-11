@@ -1144,6 +1144,7 @@
   margin: 40px 130px 100px 45px;
 }
 .section-1 a {
+  font-family: arial;
   text-decoration: none;
   color: #ffffff;
 }
@@ -1156,10 +1157,10 @@
 }
 @media (min-width: 768px) {
   .section-1 {
-    padding-bottom: 600px;
+    padding-bottom: 400px;
   }
   .section-1 h1 {
-    margin-top: 320px;
+    margin-top: 420px;
   }
 }
 .section-2 {
@@ -1170,13 +1171,37 @@
   padding-bottom: 70px;
 }
 .section-2 .line {
-  width: 80px;
+  width: 70px;
   height: 4px;
   background-color: #fff;
   margin: auto;
 }
 .section-2 .icon {
   font-size: 80px;
+}
+.section-2 .icon:before {
+  font-family: 'FontAwesome';
+}
+.section-2 .icon.clock:before {
+  content: '\f017';
+}
+.section-2 .icon:before {
+  font-family: 'FontAwesome';
+}
+.section-2 .icon.user:before {
+  content: "\f2c0";
+}
+.section-2 .icon:before {
+  font-family: 'FontAwesome';
+}
+.section-2 .icon.lock:before {
+  content: "\f023";
+}
+.section-2 .icon:before {
+  font-family: 'FontAwesome';
+}
+.section-2 .icon.heart:before {
+  content: "\f21e";
 }
 .section-2 h1 {
   margin-top: 100px;
@@ -1189,16 +1214,17 @@
   margin: 50px;
 }
 .section-2 .cta-2 {
-  display: inline-block;
+  width: 180px;
   text-align: center;
   border-radius: 35px;
   background-color: #ffffff;
   padding: 25px;
-  margin: auto;
 }
 .section-2 a {
   text-decoration: none;
   color: #000000;
+  margin: 0 auto;
+  display: table;
 }
 .section-2 .cta-2:hover {
   background-color: #060606;
@@ -1214,6 +1240,7 @@
   }
   .section-2 .cta-2 {
     text-align: center;
+    margin: 50px auto;
   }
 }
 .section-3 {
@@ -1235,11 +1262,12 @@
   border-radius: 35px;
   background-color: #ff473a;
   padding: 25px;
-  margin: 40px 130px 100px 45px;
 }
 .section-3 a {
   text-decoration: none;
   color: #ffffff;
+  margin: 0px auto;
+  display: table;
 }
 .section-3 .cta-3:hover {
   background-color: #ffffff;
@@ -1250,10 +1278,13 @@
 }
 @media (min-width: 768px) {
   .section-3 {
-    padding-bottom: 600px;
+    padding-bottom: 230px;
   }
   .section-3 h1 {
-    margin-top: 320px;
+    margin-top: 280px;
+  }
+  .section-3 .cta-3 {
+    margin: 50px auto;
   }
 }
 #our-benefits {

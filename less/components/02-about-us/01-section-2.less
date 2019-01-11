@@ -7,7 +7,7 @@
   padding-bottom: 70px;
 
   .line {
-    width: 80px;
+    width: 70px;
     height: 4px;
     background-color: #fff;
     margin: auto;
@@ -15,6 +15,38 @@
 
   .icon {
     font-size: 80px;
+  }
+
+  .icon:before {
+    font-family: 'FontAwesome';
+  }
+
+  .icon.clock:before {
+    content: '\f017';
+  }
+
+  .icon:before {
+    font-family: 'FontAwesome';
+  }
+
+  .icon.user:before {
+    content: "\f2c0";
+  }
+
+  .icon:before {
+    font-family: 'FontAwesome';
+  }
+
+  .icon.lock:before {
+    content: "\f023";
+  }
+
+.icon:before {
+    font-family: 'FontAwesome';
+  }
+
+  .icon.heart:before {
+    content: "\f21e";
   }
 
   h1 {
@@ -31,17 +63,18 @@
   }
 
   .cta-2 {
-    display:inline-block;
+    width: 180px;
     text-align: center;
     border-radius: 35px;
     background-color: #ffffff;
     padding: 25px;
-    margin: auto;
   }
 
   a {
     text-decoration: none;
     color: #000000;
+    margin:  0 auto;
+    display: table;
   }
 
   .cta-2:hover {
@@ -49,7 +82,7 @@
     transition: 0.3s ease-in-out;
     color: #ffffff;
 
-    a{
+    a {
       color: #ffffff;
     }
   }
@@ -63,7 +96,8 @@
   }
 
   .cta-2 {
-    text-align:center;
+    text-align: center;
+    margin: 50px auto;
     }
   }
 }
