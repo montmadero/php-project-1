@@ -1119,7 +1119,7 @@
   text-align: left;
 }
 .section-1 .line {
-  width: 110px;
+  width: 80px;
   height: 4px;
   background-color: #fd4900;
   margin-right: auto;
@@ -1127,8 +1127,6 @@
 .section-1 h1 {
   margin-top: 100px;
   font-size: 40px;
-  border-bottom-width: medium;
-  border-color: #ff0202;
 }
 .section-1 h5 {
   margin: 50px 0 20px 0;
@@ -1139,10 +1137,11 @@
   font-size: 15px;
 }
 .section-1 .cta-1 {
-  border-radius: 50px;
-  background-color: #fb0404;
+  width: 180px;
+  border-radius: 35px;
+  background-color: #ff473a;
   padding: 25px;
-  margin: 50px 130px 100px 45px;
+  margin: 40px 130px 100px 45px;
 }
 .section-1 a {
   text-decoration: none;
@@ -1190,8 +1189,9 @@
   margin: 50px;
 }
 .section-2 .cta-2 {
+  display: inline-block;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 35px;
   background-color: #ffffff;
   padding: 25px;
   margin: auto;
@@ -1210,10 +1210,50 @@
 }
 @media (min-width: 768px) {
   .section-2 .item {
-    margin: 20px;
+    margin: 40px;
   }
   .section-2 .cta-2 {
     text-align: center;
+  }
+}
+.section-3 {
+  background-image: url('../img/parallax5.jpg');
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+.section-3 h1 {
+  margin-top: 100px;
+}
+.section-3 p {
+  margin-top: 50px;
+}
+.section-3 .cta-3 {
+  text-align: center;
+  width: 180px;
+  border-radius: 35px;
+  background-color: #ff473a;
+  padding: 25px;
+  margin: 40px 130px 100px 45px;
+}
+.section-3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.section-3 .cta-3:hover {
+  background-color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+.section-3 .cta-3:hover a {
+  color: #fb0404;
+}
+@media (min-width: 768px) {
+  .section-3 {
+    padding-bottom: 600px;
+  }
+  .section-3 h1 {
+    margin-top: 320px;
   }
 }
 #our-benefits {

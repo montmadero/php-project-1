@@ -1,7 +1,7 @@
 <div class="section-1">
   <div class="container">
     <div class="row">
-      <div class="col col-md-6 col-md-offset-5">
+      <div class="col col-md-6 col-md-offset-6">
         <div id="body">
           <h1>ABOUT US</h1>
            <div class="line"></div>
